@@ -96,7 +96,7 @@ interface MiniCandlestickChartProps {
   color: 'green' | 'red';
 }
 
-const MiniCandlestickChart: FC<MiniCandlestickChartProps> = ({ multiplier, color }) => {
+const MiniCandlestickChart: FC<MiniCandlestickChartProps> = ({ multiplier}) => {
   // Generate mock candlestick data
   const candlesticks = generateCandlestickData(multiplier);
   
