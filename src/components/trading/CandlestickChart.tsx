@@ -26,7 +26,6 @@ interface CandlestickChartProps {
   onEffectComplete?: () => void;
   duration?: number; 
 }
-
 const CandlestickChart: FC<CandlestickChartProps> = ({
   initialPrice = 1.0,
   height = 400,
